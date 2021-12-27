@@ -1,0 +1,26 @@
+.footer{
+    background-color:#fafadc ;
+    color: black;
+    padding: 3em;
+    text-align: center;
+    list-style: none;
+}
+
+.copy{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+.copy li{
+    margin: 0 1em;
+}
+
+.copy_right{
+    margin-top: 2em;
+}
+
+.copy_right span{
+    font-weight: bold;
+    color:#ffb201 ;
+}
