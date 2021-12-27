@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Otomanopee+One&family=Sora&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Otomanopee+One&family=Sora&display=swap');
+
+
+.titulo{
+    font-size: 30px;
+    color: #a18a1b;
+    margin: 10px 0px 0px;
+    font-family: 'Otomanopee One', sans-serif;
+    margin: 50px;
+}
+
+.para{
+    color: rgb(0, 0, 0);
+    font-size: 21px;
+    line-height: 3.2rem;
+    margin: 50px;
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+    text-align: justify;
+	margin-bottom: 20px;
+    
+    ;
+}
+
+
+
+
+
+
