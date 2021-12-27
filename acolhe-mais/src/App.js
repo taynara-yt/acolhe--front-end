@@ -2,6 +2,7 @@ import { BrowserRouter as Router,Routes, Route } from 'react-router-dom'
 import Sobre from './components/pages/Sobre'
 import Plataforma from './components/pages/Plataforma'
 import Home from './components/pages/Home'
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 
 import Container from './components/layout/Container'

@@ -8,9 +8,7 @@ section.hero {
   section.hero .container {
     width: 90%;
     max-width: 980px;
-  
     margin: auto;
-  
     display: flex;
   }
   
@@ -21,4 +19,16 @@ section.hero {
     margin: 10px 0px 0px;
   }
 
+  section.hero img{
+    width: 400px;
+    margin: 2em 0;
+  }
+
+  h2{
+    font-size: 40px;
+    color: #a18a1b;
+    font-weight: bold;
+   
+  }
+  
   
