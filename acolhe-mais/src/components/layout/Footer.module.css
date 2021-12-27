@@ -4,12 +4,14 @@
     padding: 3em;
     text-align: center;
     list-style: none;
+    font-size: 20px;
 }
 
 .copy{
     display: flex;
     justify-content: center;
     list-style: none;
+   
 }
 
 .copy li{
@@ -26,4 +28,9 @@
 }
 p{
     text-align: center;
+}
+
+img{
+    width: 150px;
+   
 }

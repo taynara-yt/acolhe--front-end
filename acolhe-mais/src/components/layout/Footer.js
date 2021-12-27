@@ -1,4 +1,4 @@
-import img from '../img/Allura-Trees-150x150.png'
+import img from '../img/Allura-Trees-224x300.png'
 import styles from './Footer.module.css'
 
 function Footer (){

@@ -7,10 +7,8 @@ function Home(){
         <section className={styles.hero}>
         <div className={styles.container}>
             <div>
-                <h2 >
-                    Conectando Pessoas
-                </h2>
-                <p class="text-justify text-reset">Precisando de alguém para conversar ?
+                <h2 className={styles.titHome}> Conectando Pessoas</h2>
+                <p className={styles.paraHome}>Precisando de alguém para conversar ?
                     Aqui você encontrará contatos de
                     profissionais que estarão prontos para
                     acolher e oferecer apoio psicológico
