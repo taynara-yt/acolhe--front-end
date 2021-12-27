@@ -5,9 +5,10 @@
 .titulo{
     font-size: 30px;
     color: #a18a1b;
-    margin: 10px 0px 0px;
+    margin-top: 0px;
     font-family: 'Otomanopee One', sans-serif;
     margin: 50px;
+    
 }
 
 .para{
@@ -19,6 +20,7 @@
     font-weight: bold;
     text-align: justify;
 	margin-bottom: 20px;
+   
     
     ;
 }
