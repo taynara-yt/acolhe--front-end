@@ -7,7 +7,6 @@ function Sobre(){
       
         <div >
    
-      
              <h2 className={styles.titulo}>Sobre o Acolhe+</h2>
               <p className={styles.para}>O Brasil e vários países ao redor do mundo, estão enfrentando diversas crises, geradas pela mudança de rotina neste período, devido a pandemia causada pelo vírus SARS-CoV-2.</p>
 

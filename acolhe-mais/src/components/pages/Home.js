@@ -16,7 +16,6 @@ function Home(){
                     da COVID-19.
                  </p>
             </div>
-           
             <img src={hand} alt="handshake" />
         </div>
     </section>
