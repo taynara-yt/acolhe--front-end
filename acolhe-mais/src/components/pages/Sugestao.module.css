@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Otomanopee+One&family=Sora&display=swap');
+
+
+.sugestao_container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 4em;
+}
+
+.sugestao_container h1{
+  font-size: 30px;
+  color: #a18a1b;
+  font-weight: bold;
+  font-family: 'Merienda', cursive;
+}
+
+.sugestao_container p{
+    color: rgb(0, 0, 0);
+    font-size: 21px;
+    line-height: 3.2rem;
+    margin: 50px;
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+    text-align: justify;
+    margin-bottom: 20px;
+    margin-top: -2px; 
+}
+
+.sugestao_container img{
+    width: 350px;
+    margin: 2em;
+}
+
+.sugestao_container button{
+   
+   text-align: center;
+   width:250px; 
+   height: 50px; 
+   margin: -20px -50px; 
+   position:relative;
+   top:50%; 
+   background:#ffe45d;
+   background-size: 200%;
+   margin-top: 10px;
+   margin-bottom: 10px;
+   color:white;
+   font-size: 18px;
+   font-weight: bold;
+   border: unset;
+   border-radius: 40px;
+             
+}
+
