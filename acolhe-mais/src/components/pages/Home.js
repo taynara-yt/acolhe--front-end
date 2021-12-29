@@ -1,6 +1,7 @@
 import styles from './Home.module.css'
 import hand from './../imagens/handshake-1830760_1920.jpg'
 import Carrossel from '../layout/Carrossel'
+import CarrosselReq from '../layout/CarrosselReq'
 
 function Home(){
     return(
@@ -20,8 +21,9 @@ function Home(){
                     <img src={hand} alt="handshake" />
                 </div>
             </section>
-            {/*}<Carrossel></Carrossel>{*/}
+            {/*Carrossel{*/}
             <Carrossel></Carrossel>
+            {/*<CarrosselReq></CarrosselReq>*/}
         </div>
     )
 }
