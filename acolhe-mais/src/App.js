@@ -3,19 +3,26 @@ import Sobre from './components/pages/Sobre'
 import Plataforma from './components/pages/Plataformas'
 import Home from './components/pages/Home'
 
+
+
 import Container from './components/layout/Container'
 import Footer from './components/layout/Footer'
 import Navbar from './components/layout/Navbar'
+
 
 function App() {
   return (
     <Router>
     <Navbar/>
+   
     <Routes>
         <Route exact path="/" element={<Home />} />
         <Route path="/plataformas" element={<Plataforma />} />
         <Route path="/sobre" element={<Sobre />} />
+        
+        
     </Routes>
+    
     <Footer/>
     </Router>
   )
