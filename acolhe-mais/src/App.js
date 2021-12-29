@@ -1,6 +1,6 @@
 import { BrowserRouter as Router,Routes, Route } from 'react-router-dom'
 import Sobre from './components/pages/Sobre'
-import Plataforma from './components/pages/Plataforma'
+import Plataforma from './components/pages/Plataformas'
 import Home from './components/pages/Home'
 
 
@@ -17,7 +17,7 @@ function App() {
    
     <Routes>
         <Route exact path="/" element={<Home />} />
-        <Route path="/plataforma" element={<Plataforma />} />
+        <Route path="/plataformas" element={<Plataforma />} />
         <Route path="/sobre" element={<Sobre />} />
         
         
