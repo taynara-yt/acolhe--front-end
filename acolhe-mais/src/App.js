@@ -2,7 +2,7 @@ import { BrowserRouter as Router,Routes, Route } from 'react-router-dom'
 import Sobre from './components/pages/Sobre'
 import Plataforma from './components/pages/Plataformas'
 import Home from './components/pages/Home'
-
+import Login from './components/pages/Login'
 
 
 import Container from './components/layout/Container'
@@ -19,6 +19,7 @@ function App() {
         <Route exact path="/" element={<Home />} />
         <Route path="/plataformas" element={<Plataforma />} />
         <Route path="/sobre" element={<Sobre />} />
+        <Route exact path="/adminLog" element={<Login/>} />
         
         
     </Routes>
