@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Otomanopee+One&family=Sora&display=swap');
+
+
+
+.login {
+    height: 100vh;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .login_box {
+    position: absolute;
+    margin-top: 80px;
+    top: 50%;
+    left: 50%;
+    width: 400px;
+    padding: 40px;
+    transform: translate(-50%, -50%);
+    background:rgba(255, 255, 255, 0.466);
+    box-sizing: border-box;
+    box-shadow: 0 15px 25px rgba(170, 92, 3, 0.6);
+    border-radius: 10px;
+  }
+  
+  .login_title{
+    margin: 0 0 30px;
+    padding: 0;
+    color:black;
+    text-align: center;
+    font-family: 'Otomanopee One', sans-serif;
+  }
+
+  .login_box .user_box {
+    position: relative;
+  }
+
+  .login_box .user_box input {
+    width: 100%;
+    padding: 10px 0;
+    font-size: 16px;
+    color: #ffe45d;
+    margin-bottom: 30px;
+    border: none;
+    border-bottom: 1px solid #a18a1b ;
+    outline: none;
+    background: transparent;
+  }
+
+
+  .login_box .user_box label {
+    position: absolute;
+    top:0;
+    left: 0;
+    padding: 10px 0;
+    font-size: 16px;
+    color: #ffe45d;
+    pointer-events: none;
+    transition: .5s;
+  }
+  
+  .login_box .user_box input:focus ~ label,
+  .login_box .user_box input:valid ~ label {
+    top: -20px;
+    left: 0;
+    color: #242426;
+    font-size: 20px;
+  }
+
+  .login_submit {
+    text-align: center;
+    margin: -20px 115px; 
+    height: 30px;
+    width: 20%;
+    padding-left: 8px;
+    outline: none;
+    position: relative;
+    background: linear-gradient(150deg, black, #00C2CB);
+    background-size: 200%;
+    margin-bottom: 32px;
+    color:white;
+    font-size: 15px;
+    font-weight: bold;
+    border: unset;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: 0.5s ease;
+  }
+
+  .login_submit:hover {
+    background-position: right;
+  }
+
+ 
