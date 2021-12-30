@@ -44,7 +44,7 @@ const Home = () => {
                 <TextInput
                     style={styles.input}
                     placeholder="Pesquise uma plataforma"
-                    placeholderTextColor="rgba(255, 255, 255, 0.5)"
+                    placeholderTextColor="rgba(255, 255, 255, 0.8)"
                     value={searchText}
                     onChangeText={(t) => setSearchText(t)}
                 />
@@ -52,7 +52,7 @@ const Home = () => {
                     <MaterialCommunityIcons
                         name="order-alphabetical-ascending"
                         size={32}
-                        color="tomato"
+                        color="rgba(255, 228, 93, 1)"
                     />
                 </TouchableOpacity>
             </View>
@@ -78,7 +78,7 @@ const styles = StyleSheet.create({
     input: {
         flex: 1,
         height: 50,
-        backgroundColor: 'tomato',
+        backgroundColor: '#FFE45D',
         margin: 30,
         borderRadius: 5,
         fontSize: 19,

@@ -21,8 +21,8 @@ export default function Routes() {
                     paddingTop: 5,
                 },
 
-                tabBarActiveTintColor: 'tomato',
-                tabBarInactiveTintColor: 'rgba(255, 99, 71, 0.5)',
+                tabBarActiveTintColor: '#5C573D',
+                tabBarInactiveTintColor: 'rgba(255, 228, 93, 0.5)',
 
             }}
         >

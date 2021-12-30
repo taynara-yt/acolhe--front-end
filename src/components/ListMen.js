@@ -1,13 +1,13 @@
 import React from 'react';
 import { TouchableOpacity, View, Image, Text, StyleSheet } from 'react-native';
 
-const ListItem = ({ data }) => {
+const ListMen = ({ data }) => {
     return (
         <TouchableOpacity style={styles.item}>
             <Image source={{ uri: data.avatar }} style={styles.itemPhoto} />
             <View style={styles.itemInfo}>
                 <Text style={styles.itemP1}>{data.instituto}</Text>
-                <Text style={styles.itemP2}>{data.resumo}</Text>
+                <Text style={styles.itemP2}>{data.mensagem}</Text>
 
 
             </View>
@@ -23,15 +23,15 @@ const styles = StyleSheet.create({
         borderBottomWidth: 0,
         borderRadius: 20,
         marginTop: 10,
-        backgroundColor: 'rgba(255, 228, 93, 0.3)',
+        backgroundColor: 'rgba(255, 228, 93, 1)',
         paddingTop: 15,
         paddingBottom: 15,
 
     },
     itemPhoto: {
-        width: 60,
-        height: 60,
-        borderRadius: 10,
+        width: 50,
+        height: 50,
+        borderRadius: 30,
         marginLeft: 22,
     },
     itemInfo: {
@@ -46,9 +46,10 @@ const styles = StyleSheet.create({
     },
     itemP2: {
         fontSize: 18,
-        color: 'rgba(92, 87, 91, 0.7)',
+        color: 'rgba(255, 255, 255, 1)',
         width: 230,
     },
+
 });
 
-export default ListItem;
+export default ListMen;
